@@ -1,0 +1,8 @@
+*.dll
+*.pdb
+*.json
+*.cache
+*.txt 
+*.targets
+*.props
+Debug/
