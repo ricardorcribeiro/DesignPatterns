@@ -9,13 +9,13 @@ namespace Decorator
         public string Titulo { get; set; }
         public int MinutosDuracao { get; set; }
 
-public Video(string diretor, string titulo, int minutosDuracao, int numeroCopias)
-{
-    Diretor = diretor;
-    Titulo = titulo;
-    MinutosDuracao = minutosDuracao;
-    NumeroCopias = numeroCopias;
-}
+        public Video(string diretor, string titulo, int minutosDuracao, int numeroCopias)
+        {
+            Diretor = diretor;
+            Titulo = titulo;
+            MinutosDuracao = minutosDuracao;
+            NumeroCopias = numeroCopias;
+        }
 
         public override void Exibe()
         {
@@ -24,7 +24,6 @@ public Video(string diretor, string titulo, int minutosDuracao, int numeroCopias
             Console.WriteLine($"Titulo: {Titulo}");
             Console.WriteLine($"MinutosDuracao: {MinutosDuracao}");
             Console.WriteLine($"NumeroCopias: {NumeroCopias}");
-
         }
     }
 }
